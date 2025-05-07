@@ -10,7 +10,7 @@ public class Ahorcado {
                 "algoritmo", "variable", "objeto", "clase", "metodo", "herencia"};
 
         Random random = new Random();
-        String palabraSecreta = palabras[random.nextInt(12)];
+        String palabraSecreta = palabras[random.nextInt(palabras.length)];
 
 
 
